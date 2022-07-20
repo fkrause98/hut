@@ -1,6 +1,6 @@
 %% -*- erlang -*-
 {application, hut, [
-  {description, "helper library for making Erlang libraries logging framework agnostic"},
+  {description, "Hut fork for Riax"},
   {vsn, "1.3.0"},
   {id, "git"},
   {registered, []},
@@ -9,8 +9,8 @@
   {env, []},
   {maintainers, ["tolbrino"]},
   {licenses, ["MIT"]},
-  {links, [{"Github", "https://github.com/tolbrino/hut"}]},
-  {build_tools, ["erlang.mk", "rebar", "rebar3"]},
+  {links, [{"Github", "https://github.com/fkrause98/hut"}]},
+  {build_tools, ["erlang.mk", "rebar3"]},
   {include_files,
    [
     "Makefile",
