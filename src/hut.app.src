@@ -1,5 +1,5 @@
 %% -*- erlang -*-
-{application, hut, [
+{application, riax_hut, [
   {description, "Hut fork for Riax"},
   {vsn, "1.3.0"},
   {id, "git"},
